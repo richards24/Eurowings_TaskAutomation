@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-20T19:24:16 CET" name="TestSuite" finished-at="2023-03-20T19:24:26 CET" duration-ms="10634">
+    <groups>
+    </groups>
+    <test started-at="2023-03-20T19:24:16 CET" name="Test" finished-at="2023-03-20T19:24:26 CET" duration-ms="10634">
+      <class name="tests.MainPageTest">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.MainPageTest@5762806e]" started-at="2023-03-20T19:24:11 CET" name="setup" finished-at="2023-03-20T19:24:16 CET" duration-ms="4631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2b38b1f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkForCookies()[pri:0, instance:tests.MainPageTest@5762806e]" started-at="2023-03-20T19:24:16 CET" name="checkForCookies" description="Checking for cookies" finished-at="2023-03-20T19:24:16 CET" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkForCookies -->
+        <test-method signature="checkFlightRoute(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:tests.MainPageTest@5762806e]" started-at="2023-03-20T19:24:16 CET" name="checkFlightRoute" description="Checking flight routes " data-provider="flightRoute" finished-at="2023-03-20T19:24:18 CET" duration-ms="2288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CGN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BER]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[today]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFlightRoute -->
+        <test-method signature="checkFlightRoute(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:tests.MainPageTest@5762806e]" started-at="2023-03-20T19:24:18 CET" name="checkFlightRoute" description="Checking flight routes " data-provider="flightRoute" finished-at="2023-03-20T19:24:21 CET" duration-ms="2361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cologne-Bonn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Berlin Brandenburg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tomorrow]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFlightRoute -->
+        <test-method signature="checkFlightRoute(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:tests.MainPageTest@5762806e]" started-at="2023-03-20T19:24:21 CET" name="checkFlightRoute" description="Checking flight routes " data-provider="flightRoute" finished-at="2023-03-20T19:24:23 CET" duration-ms="2779" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cologne-Bonn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Berlin Brandenburg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dayAfterTomorrow]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFlightRoute -->
+        <test-method signature="checkFlightRoute(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:tests.MainPageTest@5762806e]" started-at="2023-03-20T19:24:23 CET" name="checkFlightRoute" description="Checking flight routes " data-provider="flightRoute" finished-at="2023-03-20T19:24:26 CET" duration-ms="3032" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[London (All Airports)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Adana]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[today]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFlightRoute -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.MainPageTest@5762806e]" started-at="2023-03-20T19:24:26 CET" name="tearDown" finished-at="2023-03-20T19:24:27 CET" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.MainPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- TestSuite -->
+</testng-results>
